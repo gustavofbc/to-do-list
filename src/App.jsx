@@ -1,15 +1,10 @@
-import Form from "./components/Form"
 import './App.css'
-import TodoItem from "./components/TodoItem"
-import { Container } from '@mui/material'
+import Home from './pages/Home'
 
 function App() {
 
   return (
-    <Container maxWidth="xs" style={{ marginTop: "1em" }}>
-      <Form />
-      <TodoItem />
-    </Container>
+    <Home />
   )
 }
 
